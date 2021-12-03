@@ -1,0 +1,13 @@
+name = "BlockHankelMatrices"
+uuid = "738a7c9d-f94f-4200-9a4b-493371abdf47"
+authors = ["Zdeněk Hurák <hurak@fel.cvut.cz>"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.7"
+
+[targets]
+test = ["Test"]
