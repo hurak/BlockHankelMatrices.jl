@@ -1,5 +1,9 @@
 module BlockHankelMatrices
 
-# Write your package code here.
+using BlockArrays
+
+include("typedef.jl")
+
+export BlockHankel
 
 end
